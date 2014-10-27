@@ -1,6 +1,5 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p>O LAMEC 2014, concebido através de um processo de co-criação que uniu participantes, patrocinadores e a diretoria do capitulo brasileiro da MPI, foi desenhado para proporcionar experiências, afinal: Experience is Everything.</p>
 <div class="schedule-tbl">
   <table>
     <thead>

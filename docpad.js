@@ -7,22 +7,22 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
+      name: "MPI LAMEC 2014",
       description: "Conference description",
-      date: "November 15",
+      date: "15 de Dezembro, 08h",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      price: "R$500",
+      venue: "WTC Events Center",
+      address: "Avenida das Nações Unidas, 12551",
+      city: "São Paulo",
+      state: "SP"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Inscreva-se agora",
+        link: "http://www.eventick.com.br/admi"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -32,7 +32,7 @@ module.exports = {
 
     // Site info
     site: {
-      theme: "yellow-swan",
+      theme: "lamec",
       url: "http://braziljs.github.io/conf-boilerplate/",
       googleanalytics: "UA-33656081-1"
     },
@@ -52,10 +52,10 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
+      about: "Experiência é tudo",
+      location: "Local",
+      speakers: "Palestrantes",
+      schedule: "Agenda",
       sponsors: "Sponsors",
       partners: "Partners",
       contact: "Contact"
@@ -64,114 +64,132 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+        name: "Credenciamento",
+        time: "8h00"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        name: "Abertura & Keynote",
+        time: "9h00",
+        description: "A globalização dos eventos, como construir uma carreira global, com o expert em Learning&Development, Avinash Chandarana."
+      },
+      {
+        name: "Coffee Tech",
+        time: "10h00",
+        description: "Conheça os principais apps e soluções digitais para eventos."
+      },
+      {
+        name: "Experiência 1",
+        time: "10h30"
+      },
+      {
+        name: "Experiência 2",
+        time: "11h00"
+      },
+      {
+        name: "Almoço",
+        time: "12h30"
+      },
+      {
+        name: "Experiência 3",
+        time: "14h00"
+      },
+      {
+        name: "Experiência 4",
+        time: "15h00"
+      },
+      {
+        name: "Responsible Coffee",
+        time: "16h00"
+      },
+      {
+        name: "Wrap-up",
+        time: "16h30"
+      },
+      {
+        name: "Bruce Dickinson",
+        time: "17h00",
+        description: "Engagement of Audiences: O líder do Iron Maiden expõe suas ideias sobre o mundo de negócios de hoje, e explica o que significa engajamento de audiências, na visão de quem conduz plateias imensas e mantém o relacionamento com uma multidão de fãs através de décadas."
+      },
+      {
+        name: "Encerramento",
+        time: "18h00"
+      },
+      {
+        name: "Avinash Chandarana",
+        photo: "themes/lamec/img/avinash.png",
+        bio: "Avinash Chandarana é o diretor global de learning & development da MCI Group, e bla bla bla bla bla lba bla bla lba bla bla lba bla bla lba",
         company: "Linux Foundation",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "http://twitter.com/avinashchandarana",
+          text: "@avinashchandarana"
         },
         presentation: {
-          title: "Digging into a Linux Kernel",
+          title: "Diferenças culturais na organização de eventos, em um mundo cada vez mais globalizado",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "10h00"
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        name: "Bruce Dickinson",
+        photo: "themes/lamec/img/bruce.png",
+        bio: "Entre gravações e shows para mais de cem mil pessoas, Bruce Dickinson é piloto de avião, foi diretor de marketing da Austraeus Airlines, é empresário do ramo de cervejas e CEO da Cardiff Aviation. É um grande pensador criativo para negócios, e ainda encontra tempo para ser o vocalista de uma das bandas de heavy metal de maior sucesso na história, o Iron Maiden.",
         company: "Microsoft",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "http://twitter.com/ironmaiden",
+          text: "@ironmaiden"
         },
         presentation: {
-          title: "Introducing Windows 12",
+          title: "Engagement of Audiences – transformando clientes e plateias em fãs",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          time: "17h00"
         }
       },
       {
         name: "Lunch",
         time: "12h00"
-      },
-      {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
-        link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
-        },
-        presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
-        }
-      },
-      {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
-      },
-      {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
       }
     ],
 
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
+        name: "Alatur",
+        logo: "themes/lamec/img/sponsors/alatur.png",
+        url: "http://eventick.com.br"
+      },
+      {
+        name: "Expo Center Norte",
+        logo: "themes/lamec/img/sponsors/expocenternorte.png",
+        url: "http://eventick.com.br"
+      },
+      {
+        name: "Holiday Inn",
+        logo: "themes/lamec/img/sponsors/holidayinn.png",
+        url: "http://eventick.com.br"
+      },
+      {
+        name: "Novotel",
+        logo: "themes/lamec/img/sponsors/novotel.png",
+        url: "http://eventick.com.br"
+      },
+      {
+        name: "NH Hoteles",
+        logo: "themes/lamec/img/sponsors/nhhoteles.png",
+        url: "http://eventick.com.br"
+      },
+      {
+        name: "Fagga",
+        logo: "themes/lamec/img/sponsors/fagga.png",
+        url: "http://eventick.com.br"
+      },
+      {
+        name: "Iberostar",
+        logo: "themes/lamec/img/sponsors/iberostar.png",
+        url: "http://eventick.com.br"
+      },
+      {
+        name: "Costão do Santinho",
+        logo: "themes/lamec/img/sponsors/costaodosantinho.png",
         url: "http://eventick.com.br"
       }
     ],
@@ -179,10 +197,36 @@ module.exports = {
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
+        name: "PROGRAMASOM",
+        logo: "themes/lamec/img/partners/programasom.png",
+        url: "http://braziljs.org"
+      },
+      {
+        name: "WTC",
+        logo: "themes/lamec/img/partners/wtc.png",
+        url: "http://braziljs.org"
+      },
+      {
+        name: "MK&VAPPS",
+        logo: "themes/lamec/img/partners/mkvapps.png",
+        url: "http://braziljs.org"
+      },
+      {
+        name: "Levy",
+        logo: "themes/lamec/img/partners/levy.png",
+        url: "http://braziljs.org"
+      },
+      {
+        name: "Dorier Brasil",
+        logo: "themes/lamec/img/partners/dorierbrasil.png",
+        url: "http://braziljs.org"
+      },
+      {
+        name: "Magency Digital",
+        logo: "themes/lamec/img/partners/magency.png",
         url: "http://braziljs.org"
       }
+
     ],
 
     // Theme path
