@@ -4,9 +4,9 @@
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Time</th>
+        <th class="schedule-time">Horário</th>
         <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Description</th>
+        <th class="schedule-description">Descrição</th>
       </tr>
     </thead>
     <tbody>
@@ -29,12 +29,42 @@
         <% else: %>
           <tr class="schedule-other">
             <td class="schedule-time"><%= slot.time %></td>
-            <td class="schedule-slot"><%= slot.name %></td>
-            <td class="schedule-description">-</td>
+            <td class="schedule-slot" colspan=2><%= slot.name %></td>            
           </tr>
         <% end %>
       <% end %>
 
+    </tbody>
+  </table>
+  <br/>
+  <h3> Experiências </h3>
+  <table>
+    <tbody>    
+      <tr>        
+        <td class="schedule-slot">Flash-points</td>
+        <td class="schedule-description" colspan=2>Palestras rápidas e poderosas, abordando temas como: Redes sociais, Behind the Scenes LAMEC, 2014, Design Musical e Foco no Participante.</td>
+      </tr>
+      <tr>        
+        <td class="schedule-slot">Professional Pavillion</td>
+        <td class="schedule-description" colspan=2>Como desenvolver uma carreira de sucesso no mundo dos eventos, abordando os temas: <br/>
+  <ul><li>- A desconstrução do evento para concepção de um evento criativo</li>
+  <li>- Eu não falo lumen: como sobreviver e ter sucesso utilizando as novidades em AV</li>
+  <li>- Um universo de possibilidades: como fazer carreira no setor de eventos</li>
+  <li>- X,Y,Z  - Como liderar e comunicar com públicos tão diversos</li>
+  <li>- Meu cliente pressionou: como a tecnologia pode escalonar seus eventos</li>
+  <li>- O Chefe pirou? Como estão as demandas das empresas para profissionais de eventos.</li>
+  </ul>
+</td>
+      </tr>    
+          <tr>            
+            <td class="schedule-slot">Digitisation</td>
+            <td class="schedule-description" colspan=2>Vivencie uma sessão digital interativa e tenha idéias para seu próximo evento.</td>
+         </tr>
+        <tr>            
+            <td class="schedule-slot">Meeting Design</td>
+            <td class="schedule-description" colspan=2>Conheça cases de inovação em meeting design, experimente uma idéia interessante e surpreenda-se. Discussões focais:  Smart Savings / Conservador vs. Inovador / Híbridos & Virtuais.
+</td>
+         </tr>
     </tbody>
   </table>
 </div>

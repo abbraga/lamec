@@ -22,7 +22,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Inscreva-se agora",
-        link: "http://www.eventick.com.br/admi"
+        link: "http://www.eventick.com.br/mpilamec"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -58,7 +58,7 @@ module.exports = {
       schedule: "Agenda",
       sponsors: "Sponsors",
       partners: "Partners",
-      contact: "Contact"
+      contact: "Contato"
     },
 
     // The entire schedule
@@ -66,24 +66,35 @@ module.exports = {
       {
         name: "Credenciamento",
         time: "8h00"
+      },      
+      {
+        name: "Avinash Chandarana",
+        photo: "themes/lamec/img/avinash.png",
+        bio: "Avinash Chandarana é o diretor global de learning & development da MCI Group.",
+        link: {
+          href: "http://twitter.com/avinashchandarana",
+          text: "@avinashchandarana"
+        },
+        presentation: {
+          title: "",
+          description: "Diferenças culturais na organização de eventos, em um mundo cada vez mais globalizado",
+          time: "09h00"
+        }
       },
       {
-        name: "Abertura & Keynote",
-        time: "9h00",
-        description: "A globalização dos eventos, como construir uma carreira global, com o expert em Learning&Development, Avinash Chandarana."
-      },
-      {
-        name: "Coffee Tech",
+        name: "Coffee Tech: Conheça os principais apps e soluções digitais para eventos.",
         time: "10h00",
-        description: "Conheça os principais apps e soluções digitais para eventos."
+        description: ""
       },
       {
         name: "Experiência 1",
-        time: "10h30"
+        time: "10h30",
+        description: "Participe de uma das experiências planejadas, descritas na seção abaixo."
       },
       {
         name: "Experiência 2",
-        time: "11h00"
+        time: "11h00",
+        description: "Participe de uma das experiências planejadas, descritas na seção abaixo."
       },
       {
         name: "Almoço",
@@ -91,11 +102,13 @@ module.exports = {
       },
       {
         name: "Experiência 3",
-        time: "14h00"
+        time: "14h00",
+        description: "Participe de uma das experiências planejadas, descritas na seção abaixo."
       },
       {
         name: "Experiência 4",
-        time: "15h00"
+        time: "15h00",
+        description: "Participe de uma das experiências planejadas, descritas na seção abaixo."
       },
       {
         name: "Responsible Coffee",
@@ -104,49 +117,24 @@ module.exports = {
       {
         name: "Wrap-up",
         time: "16h30"
-      },
-      {
-        name: "Bruce Dickinson",
-        time: "17h00",
-        description: "Engagement of Audiences: O líder do Iron Maiden expõe suas ideias sobre o mundo de negócios de hoje, e explica o que significa engajamento de audiências, na visão de quem conduz plateias imensas e mantém o relacionamento com uma multidão de fãs através de décadas."
-      },
-      {
-        name: "Encerramento",
-        time: "18h00"
-      },
-      {
-        name: "Avinash Chandarana",
-        photo: "themes/lamec/img/avinash.png",
-        bio: "Avinash Chandarana é o diretor global de learning & development da MCI Group, e bla bla bla bla bla lba bla bla lba bla bla lba bla bla lba",
-        company: "Linux Foundation",
-        link: {
-          href: "http://twitter.com/avinashchandarana",
-          text: "@avinashchandarana"
-        },
-        presentation: {
-          title: "Diferenças culturais na organização de eventos, em um mundo cada vez mais globalizado",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
-        }
-      },
+      },      
       {
         name: "Bruce Dickinson",
         photo: "themes/lamec/img/bruce.png",
         bio: "Entre gravações e shows para mais de cem mil pessoas, Bruce Dickinson é piloto de avião, foi diretor de marketing da Austraeus Airlines, é empresário do ramo de cervejas e CEO da Cardiff Aviation. É um grande pensador criativo para negócios, e ainda encontra tempo para ser o vocalista de uma das bandas de heavy metal de maior sucesso na história, o Iron Maiden.",
-        company: "Microsoft",
         link: {
           href: "http://twitter.com/ironmaiden",
           text: "@ironmaiden"
         },
         presentation: {
-          title: "Engagement of Audiences – transformando clientes e plateias em fãs",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "",
+          description: "Engagement of Audiences – transformando clientes e plateias em fãs",
           time: "17h00"
         }
       },
       {
-        name: "Lunch",
-        time: "12h00"
+        name: "Encerramento",
+        time: "18h00"
       }
     ],
 
